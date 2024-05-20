@@ -1324,6 +1324,28 @@ typing = ["typing-extensions"]
 xmp = ["defusedxml"]
 
 [[package]]
+name = "pip"
+version = "24.0"
+description = "The PyPA recommended tool for installing Python packages."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pip-24.0-py3-none-any.whl", hash = "sha256:ba0d021a166865d2265246961bec0152ff124de910c5cc39f1156ce3fa7c69dc"},
+    {file = "pip-24.0.tar.gz", hash = "sha256:ea9bd1a847e8c5774a5777bb398c19e80bcd4e2aa16a4b301b718fe6f593aba2"},
+]
+
+[[package]]
+name = "pkg"
+version = "0.2"
+description = "Python scripts dealing with software packages used in building applications and systems"
+optional = false
+python-versions = ">=3.7.3"
+files = [
+    {file = "pkg-0.2-py3-none-any.whl", hash = "sha256:88849f47c7c4f5242f7190da896133613229ff17198c84d463b0ad8d458363f0"},
+    {file = "pkg-0.2.tar.gz", hash = "sha256:809e0221e41be4619ae412f56826e5a87c616abf9168838b170ead5db4a4118e"},
+]
+
+[[package]]
 name = "ply"
 version = "3.8"
 description = "Python Lex & Yacc"
@@ -2018,4 +2040,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "9159cbe77f0e8810684c1149ef631f60234883590559056fade221ebf16a39a3"
+content-hash = "1666b507691790d107dabad23c4827da11cc05753b8533d821d35fe75c5b45ef"

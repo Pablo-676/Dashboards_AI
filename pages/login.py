@@ -1,7 +1,6 @@
 import streamlit as st
 
 
-import pyrebase
 
 import firebase_admin
 from firebase_admin import credentials
@@ -19,8 +18,7 @@ firebaseConfig = {
     'measurementId': "G-GM7MGEK8T2"
 }
 
-firebase= pyrebase.initialize_app(firebaseConfig)
-auth=firebase.auth()
+
 
 
 cred = credentials.Certificate("ia-dash-b5671-205db9162535.json") 
