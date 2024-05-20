@@ -2,30 +2,6 @@ import streamlit as st
 
 
 
-import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import auth
-
-
-firebaseConfig = {
-    'apiKey': "AIzaSyDWiYwmedg6sAE0V6nCCl4yhqLaM1JYfXk",
-    'authDomain': "ia-dash-b5671.firebaseapp.com",
-    'databaseURL':'https://ia-dash-b5671-default-rtdb.firebaseio.com',
-    'projectId': "ia-dash-b5671",
-    'storageBucket': "ia-dash-b5671.appspot.com",
-    'messagingSenderId': "172729420370",
-    'appId': "1:172729420370:web:8bad132c95eccf58ef2d8b",
-    'measurementId': "G-GM7MGEK8T2"
-}
-
-
-
-
-cred = credentials.Certificate("ia-dash-b5671-205db9162535.json") 
-firebase_admin.initialize_app(cred)
-
-
-
 st.set_page_config(page_title='Meu site Streamlit')
 
 if 'email' not in st.session_state:
