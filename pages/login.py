@@ -16,11 +16,10 @@ with st.container():
     
     def f():
         try:
-            login = auth.sign_in_with_email_and_password(email,password)
-            print(login)
+            
             st.success("Logado com sucesso")
-            st.session_state['email'] = email
-            st.session_state['user'] = login
+            
+            
             st.balloons()
 
         except:
